@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { VoteComponent } from './vote/vote.component';
+import { CartComponent } from './cart/cart.component';
+import { MovieDisplayComponent } from './movie-display/movie-display.component';
+import { FlopVotesComponent } from './flop-votes/flop-votes.component';
+import { RentalCartComponent } from './rental-cart/rental-cart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VoteComponent,
+    CartComponent,
+    MovieDisplayComponent,
+    FlopVotesComponent,
+    RentalCartComponent
   ],
   imports: [
     BrowserModule,
